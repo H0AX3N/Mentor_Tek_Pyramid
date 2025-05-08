@@ -523,5 +523,204 @@ header {
     }
 }
 
+.courses-section {
+    height: 100vh;
+    width: 85vw;
+    padding: 60px 0px;
+}
 
+.courses-header {
+    padding-bottom: 60px;
+}
 
+.courses-header h2 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #4444447d;
+    font-style: "Raleway", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+h2::after {
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 1px;
+    background: #5fcf80;
+    margin: 4px 10px;
+}
+
+.courses-header p {
+    font-size: 35px;
+    font-weight: 800;
+    color: #37423B;
+}
+
+.courses-cards {
+    height: auto;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.courses-cards .course-item {
+    border: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 120px;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.course-item:hover{
+    cursor: pointer;
+}
+
+.courses-cards .course-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.button-price {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.button-price .price, .category {
+    font-family: "Open Sans", sans-serif;
+}
+
+.button-price .price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #696969;
+}
+
+.button-price .category {
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #5fcf80;
+    color: #fff;
+    padding: 7px 14px;
+    font-weight: 400;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.course-content h3 {
+    font-weight: 700;
+    color: #37423B;
+    margin-bottom: 8px;
+    transition: all 0.4s ease;
+}
+
+.course-content h3:hover {
+    color: #5fcf80;
+    cursor: pointer; 
+}
+
+.course-content .description {
+    font-size: 14px;
+    color: #444444c3;
+    font-weight: 450;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.trainer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(219, 219, 219);
+    padding-top: 15px;
+}
+
+.trainer-section .trainer {
+    display: flex;
+    align-items: center;
+}
+
+.trainer-section .trainer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.trainer-section .trainer a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+    transition: all 0.5s ease;
+}
+
+.trainer-section .trainer a:hover {
+    color: #5fcf80;
+}
+
+.trainer-rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trainer-rank .followers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    gap: 5px;
+    color: #44444466;
+}
+
+.trainer-rank .followers p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.trainer-rank .followers i {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.trainer-rank .likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 10px;
+    gap: 5px;
+    color: #44444466;
+}
+
+.trainer-rank .likes p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.trainer-rank .likes i {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
