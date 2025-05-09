@@ -524,7 +524,6 @@ header {
 }
 
 .courses-section {
-    height: 100vh;
     width: 85vw;
     padding: 60px 0px;
 }
@@ -543,7 +542,7 @@ header {
     letter-spacing: 1px;
 }
 
-h2::after {
+.courses-header h2::after {
     content: "";
     display: inline-block;
     width: 120px;
@@ -724,3 +723,26 @@ h2::after {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
 }
+
+.teachers-section {
+    border: 1px solid black;
+    width: 85vw;
+    height: 100vh;
+    padding: 60px 0px;
+}
+
+.teacher-items {
+    border: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 120px;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.teacher-items img {
+    
+}
+
